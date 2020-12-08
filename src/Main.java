@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Преобразованиее имени");
         boolean isCorrectName = false;
         while (!isCorrectName) {
             String name = scanner.nextLine(); //Считывает строку из System.in
